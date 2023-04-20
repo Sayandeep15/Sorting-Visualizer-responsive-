@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mush:wght@300;900&display=swap" rel="stylesheet">
+
+    <title>Sorting Visualizer</title>
+
+    <link rel="stylesheet" href="home.css">
+</head>
+<body background="keyboard.jpg">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<header id="homepage">
+    <div class="heading"><h1>Sorting Visualizer</h1></div>
+    <nav class="nav_button">
+        <a href="#homepage" class="active">HOME</a>
+        <a href="#explore">EXPLORE</a>
+        <a href="#about">ABOUT</a>
+    </nav>
+    <div class="action-btn"><a href="visualization.html">Get Started</a></div>
+
+    <div class="menu-btn"><ion-icon name="menu"></ion-icon></div>
+
+    <div class="drop-down-menu">
+        <li><a href="#homepage" class="active">HOME</a></li>
+        <li><a href="#explore">EXPLORE</a></li>
+        <li> <a href="#about">ABOUT</a></li>
+        <li><a  class="drp-actn-btn" href="visualization.html">GET STARTED</a></li>
+    </div>
+</header> 
+
+<!-- home part -->
+<section class="home" id="home">
+    <video src="typing.mp4" class="wallpaper" autoplay muted loop></video>
+    <div class="content">
+        
+        <h1>VISUALISE <br> ALL THE <br>SORTING <br>ALGORITHMS <br> </h1>
+        <p>cause.. The more you <span>SEE</span> the more you <span>LEARN</span>...</p>   
+         <div class="home-option">
+            <a href="visualization.html">Get Started</a>
+            <a href="#explore">Read more</a>
+         </div>  
+    </div> 
+</section>
+
+<section class="body-section" id="explore">
+    <div class="description">
+        <h1>What is Sorting</h1>
+        <p>A Sorting Algorithm is used to rearrange a given array or st of elements according to a comparison operator on the elements. The comparison operator is used to decide the new order of elements in the respective data structure.</p>
+    </div>
+    
+    <!----------------------------------------- CARDS --------------------------->
+    <div class="card-container">
+        <div class="card" id="Bubble">
+            <div class="title">
+                <h1>Bubble Sort</h1>
+            </div>
+            <div class="card-body">
+                <p>Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.</p>
+                <a href="https://www.geeksforgeeks.org/bubble-sort/?ref=lbp">Learn more</a>
+            </div>
+        </div>
+        <div class="card" id="Selection">
+            <div class="title">
+                <h1>Selection Sort</h1>
+            </div>
+            <div class="card-body">
+                <p>Selection sort is a simple and efficient sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the st and moving it to the sorted portion of the st. The algorithm repeatedly selects the smallest (or largest) element from the unsorted portion of the st and swaps it with the first element of the unsorted portion.  </p>
+                <a href="https://www.geeksforgeeks.org/selection-sort/">Learn more</a>
+            </div>
+        </div>
+        <div class="card" id="Insertion">
+            <div class="title">
+                <h1>Insertion Sort</h1>
+            </div>
+            <div class="card-body">
+                <p>Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually spt into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.</p>
+                <a href="https://www.geeksforgeeks.org/insertion-sort/?ref=lbp">Learn more</a>
+            </div>
+        </div>
+        <div class="card" id="Merge">
+            <div class="title">
+                <h1>Merge Sort</h1>
+            </div>
+            <div class="card-body">
+                <p>Merge sort is a sorting algorithm that works by dividing an array into smaller subarrays, sorting each subarray, and then merging the sorted subarrays back together to form the final sorted array.
+
+                    In simple terms, we can say that the process of merge sort is to divide the array into two halves, sort each half, and then merge the sorted halves back together. This process is repeated until the entire array is sorted.</p>
+                <a href="https://www.geeksforgeeks.org/merge-sort/?ref=lbp">Learn more</a>
+            </div>
+        </div>
+        <div class="card" id="Quick">
+            <div class="title">
+                <h1>Quick Sort</h1>
+            </div>
+            <div class="card-body">
+                <p> QuickSort is a Divide and Conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. The key process in quickSort is a partition(). </p>
+                <a href="https://www.geeksforgeeks.org/quick-sort/?ref=lbp">Learn more</a>
+            </div>
+        </div>
+        <div class="card" id="Heap">
+            <div class="title">
+                <h1>Heap Sort</h1>
+            </div>
+            <div class="card-body">
+                <p>Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to the selection sort where we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the remaining elements.</p>
+                <a href="https://www.geeksforgeeks.org/heap-sort/?ref=lbp">Learn more</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------------------------------------------------------------- Footer --------------------------------------------------------------------------------------->
+<footer id="about">
+   <!--  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> -->
+
+   
+   
+    <div class="social-media">
+        <a href="https://www.facebook.com/profile.php?id=100036169861218"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="https://www.instagram.com/i_am_sayandeep/"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://www.linkedin.com/in/sayandeep-dutta-profile/"><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a href="https://github.com/Sayandeep15"><ion-icon name="logo-github"></ion-icon></a>
+    </div>
+    
+    <div class="footer-menu">
+        <a href="#homepage">HOME</a>
+        <a href="#explore">EXPLORE</a>
+        <a href="#about">ABOUT</a>
+    </div>
+
+    <div class="me">
+        <ion-icon  name="person-circle-outline"></ion-icon>
+        <p>Sayandeep Dutta</p>
+    </div>
+    <div class="mail">
+        <p>CONTACT ME:</p>
+        <a  href="mailto:duttasayandeep18@gmail.com">duttasayandeep18@gmail.com</a>
+    </div>
+   
+</footer>
+
+<!-- script for drop down menu -->
+<script>
+    const menubtn= document.querySelector('.menu-btn')
+    const menuicon= document.querySelector('.menu-btn ion-icon')
+    const dropmenu= document.querySelector('.drop-down-menu')
+
+    menubtn.onclick= function(){
+        dropmenu.classList.toggle('open')
+        const isopen= dropmenu.classList.contains('open')
+    }
+</script>
+
+</body>
+</html>
