@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer page</title>
+
+    <link rel="stylesheet" href="visualization.css">
+
+</head>
+<body>
+
+    <header>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+        <div class="heading">
+            <h1>Sorting Visualizer</h1>
+            <a class="heading-home" href="index.html"><ion-icon name="home-outline"></ion-icon></a>
+        </div>
+
+        <nav>
+            <div class="array-inputs">
+                <div class="size">
+                    <p>Size</p>
+                    <input id="a_size" type="range" id="rangr" class="rng-field"  min="20" max="100" step=1 value=80>
+                </div>
+                <div class="speed">
+                    <p>Speed</p>
+                    <input id="a_speed" type="range" id="rangr" class="rng-field" min=1 max=5 step=1 value=4>
+                </div>
+            </div>
+            <button id="a_generate"> New Array</button>
+            <div class="algos">
+                <button class="button" >Bubble</button>
+                <button class="button">Selection</button>
+                <button class="button">Insertion</button>
+                <button class="button">Merge</button>
+                <button class="button">Quick</button>
+                <button class="button">Heap</button>
+            </div>
+        </nav>
+        <a href="index.html"><ion-icon name="home-outline"></ion-icon></a>
+    </header>
+
+    <section>
+
+       
+            <!-- -----------------------------time complexcity------------------------------------ -->
+            <div id="Info_Cont1">
+            <h3>TIME COMPLEXITY</h3>
+
+            <div class="Complexity_Containers" id="Time_Complexity_Types_Container">
+
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Worst case:</p>
+                    <p id="Time_Worst"></p>
+                </div>
+                
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Average case:</p>
+                    <p id="Time_Average"></p>
+                </div>
+                
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Best case:</p>
+                    <p id="Time_Best"></p>
+                </div>
+
+            </div>
+
+        </div>
+<!-- -----------------------------------------------contains the array bars---------------------------------------------------------------- -->
+        <div id="array_container">
+            
+        </div>
+
+
+<!-- ----------------------------------------------------------------space complexity-------------------------------------------------------- -->
+        <div id="Info_Cont2">
+            <h3>SPACE COMPLEXITY</h3>
+
+            <div class="Complexity_Containers" id="Space_Complexity_Types_Container">
+
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Worst case:</p>
+                    <p id="Space_Worst"></p>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <!-- option for phone view -->
+        <div class="algo-optn">
+            <button class="button" >Bubble</button>
+                <button class="button">Selection</button>
+                <button class="button">Insertion</button>
+                <button class="button">Merge</button>
+                <button class="button">Quick</button>
+                <button class="button">Heap</button>
+        </div>
+       
+       
+        
+    </section>
+
+    <footer>
+        <h2>Welcome to the visualization part</h2>
+        <p>Less number of array is recommended for proper visualization in phone view</p>
+    </footer>
+    <!-- js -->
+    <script src="main1.js"></script>  
+
+</body>
+
+</html>
