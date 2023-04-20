@@ -1,8 +1,7 @@
 # Sorting-Visualizer
 Sorting Visualizer using html, css, js
 
-![Screenshot (64)](https://user-images.githubusercontent.com/123149345/228559408-31a456dd-3e0c-4c5c-9a6d-6ab095701f44.png)
-![photo_2023-04-21_03-11-31](https://user-images.githubusercontent.com/123149345/233493874-1476e5f3-8224-42ce-aa1f-2ab4877ebd98.jpg)
+![IMG_20230421_032304](https://user-images.githubusercontent.com/123149345/233496402-aee07c33-d512-46db-8d56-a3c25ebddde1.jpg)
 
 
 
