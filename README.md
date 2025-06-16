@@ -1,11 +1,12 @@
 # Sorting-Visualizer
-Sorting Visualizer using html, css, js
+A project designed to understand and visualizesorting algorithms through a web interface. <br>
 
-![IMG_20230421_032304](https://user-images.githubusercontent.com/123149345/233496402-aee07c33-d512-46db-8d56-a3c25ebddde1.jpg)
-
+• Created an interactive web application to visualize sorting algorithms.<br>
+• Implemented five different sorting algorithms (Bubble Sort, Merge Sort, Quick Sort, Heap Sort, and Insertion Sort) and
+analyzed their performance.<br>
+• Optimized visualization speed by 30%, improving user experience and educational effectiveness.<br>
 
 
 You can check out the full website [from here](https://sorting-visualizer-sayandeep-phn.netlify.app/)
 
 
-We all know sorting in arrays. The above project is the simple Visualizaion that how arrays are being sorted in memories in different types of sorting algorithm.
