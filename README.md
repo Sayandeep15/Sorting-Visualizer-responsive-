@@ -1,6 +1,5 @@
 # Sorting-Visualizer
 A project designed to understand and visualizesorting algorithms through a web interface. <br>
-
 • Created an interactive web application to visualize sorting algorithms.<br>
 • Implemented five different sorting algorithms (Bubble Sort, Merge Sort, Quick Sort, Heap Sort, and Insertion Sort) and
 analyzed their performance.<br>
